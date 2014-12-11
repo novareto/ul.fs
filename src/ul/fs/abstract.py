@@ -5,9 +5,6 @@ from mimetypes import guess_type
 from .browser import FileIterator, FileIterable
 
 
-CHUNK_SIZE = 1 << 12
-
-
 class Folder(Location):
 
     def __init__(self, path):
